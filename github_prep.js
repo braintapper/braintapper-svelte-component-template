@@ -31,6 +31,8 @@ if (process.argv.length == 3) {
 
     fs.writeFileSync("README.md", readme);
 
+    // TODO: append github_prep.js and github_prep.bat to .gitignore
+
 
 
 } else {
