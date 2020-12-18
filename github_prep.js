@@ -14,6 +14,7 @@ if (process.argv.length == 3) {
     fs.writeFileSync("package.json", JSON.stringify(package, null, 2));
 
     gitHubCommands = [
+        'git init',
         'git add .',
         'git commit -m "degit from template"',
         'git branch -M main',
